@@ -1,0 +1,142 @@
+/*This is a CSS comment*/
+html {
+}
+
+a {
+
+
+.red {
+    color: #aa0000;
+}
+
+.green {
+    color: #007700;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.vertical {
+    flex-direction: column;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration none;
+}
+
+header {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+header div {
+    padding: 0.5rem 0.8rem;
+}
+
+header nav {
+}
+
+header nav ul li a {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+}
+
+header nav ul li a[aria-current="true"] {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex: 1 1 auto;
+}
+
+figure {
+    float: right;
+}
+
+figcaption {
+    font-size: 0.8rem;
+}
+
+aside {
+    flex: 0 0 auto;
+    width: 8rem;
+}
+
+footer {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+footer nav li {
+    flex: 0 0 auto;
+}
+
+footer nav li a {
+    padding: 0 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+}
+
+table th {
+    text-align: left;
+    padding: 0.3rem 0.5rem;
+}
+
+table td {
+    padding: 0.3rem 0.5rem;
+}
+
+table tbody th {
+    font-weight: normal;
+    font-style: italic;
+}
+
+table thead tr th {
+    background: #dddddd;
+}
+
+table tbody tr:nth-child(2n) th, table tbody tr:nth-child(2n) td {
+    background: #efefef;
+}
+
+table tbody td.pb {
+    color: #007700;
+    font-weight: bold;
+}
+
+table tbody td.sr {
+    color: #aa0000;
+    font-weight: bold;
+}
+
+table tfoot {
+    font-size: 0.8rem;
+}
+
+table tfoot p {
+    margin: 0;
+}
