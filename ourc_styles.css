@@ -2,9 +2,6 @@
 html {
 }
 
-a {
-
-
 .red {
     color: #aa0000;
 }
@@ -30,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration none;
+    text-decoration: none;
 }
 
 header {
