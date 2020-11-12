@@ -10,6 +10,18 @@ html {
     color: #007700;
 }
 
+.navbar {
+    padding: 15px;
+}
+
+.navbar ul a {
+    color: white;
+}
+
+.footer a {
+    padding: 5px;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -37,9 +49,6 @@ header {
 
 header div {
     padding: 0.5rem 0.8rem;
-}
-
-header nav {
 }
 
 header nav ul li a {
@@ -136,4 +145,25 @@ table tfoot {
 
 table tfoot p {
     margin: 0;
+}
+
+/*
+Utilities
+
+Inspired by TailwindCSS, using its color palette: https://tailwindcss.com/docs/customizing-colors#default-color-palette
+ */
+.text-center {
+    text-align: center;
+}
+
+.bg-gray-800 {
+    background-color: #2D3748;
+}
+
+.text-gray-700 {
+    color: #4A5568
+}
+
+.text-bold {
+    font-weight: bold;
 }
