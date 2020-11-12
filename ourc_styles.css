@@ -1,5 +1,11 @@
-/*This is a CSS comment*/
 html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #1177d1;
+    text-decoration: none;
 }
 
 .red {
@@ -10,12 +16,32 @@ html {
     color: #007700;
 }
 
+.header .header__title {
+    background-color: #002158;
+    color: white;
+    margin: 0;
+    padding: 1em;
+}
+
 .navbar {
     padding: 15px;
+    background-color: #1177d1;
 }
 
 .navbar ul a {
     color: white;
+    padding: 4px 1em;
+}
+
+.navbar--active {
+    color: #222222 !important;
+    background-color: #d3edf4;
+}
+
+.footer {
+    border-top: 1px solid #1177d1;
+    padding-top: 1em;
+    margin-top: 1em;
 }
 
 .footer a {
@@ -36,10 +62,6 @@ nav ul.vertical {
 nav ul li {
     flex: 1 1 auto;
     list-style-type: none;
-}
-
-nav ul li a {
-    text-decoration: none;
 }
 
 header {
